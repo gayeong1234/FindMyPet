@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Level2Activity"
+    android:background="#FFFF00">
+
+    <TextView
+        android:id="@+id/tv_level2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="200dp"
+        android:text="반려동물이 100m 이상 멀어졌습니다."
+        android:textSize="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_level2_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="현재 위치 보기"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_level2" />
+
+    <Button
+        android:id="@+id/btn_level2_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="아두이노 소리 출력"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="@+id/btn_level2_1"
+        app:layout_constraintStart_toStartOf="@+id/btn_level2_1"
+        app:layout_constraintTop_toBottomOf="@+id/btn_level2_1" />
+
+    <Button
+        android:id="@+id/btn_leve2_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="아두이노 소리 차단"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="@+id/btn_level2_2"
+        app:layout_constraintStart_toStartOf="@+id/btn_level2_2"
+        app:layout_constraintTop_toBottomOf="@+id/btn_level2_2" />
+</androidx.constraintlayout.widget.ConstraintLayout>
